@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection {
+    color:chocolate;
+    background:chartreuse;
+}
+nav{
+    position: fixed;
+    background:salmon;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 12;
+}
+nav .menu {
+    max-width: 1250px;
+    padding: 0 500px;
+}
+.menu .logo a{
+    font-size: 45px;
+    font-weight: 600;
+}
